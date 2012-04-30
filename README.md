@@ -2,3 +2,29 @@ USC_EE450_Project_1
 ===================
 
 Simple Socket programming Example using fork
+
+EE_450: Programming Project 1.
+
+- Compiling Instructions:
+
+Extract tar file tar -zxvf EE_450_PP1_SAKET
+Compile : make
+
+Run: server
+
+Run: client date
+     client time
+
+Server is handling multiple clients simulteneously by 
+spawning a child using fork() API and listens after 
+accepting a client connection.
+
+Server will serve multiple clients once and then close 
+the client socket connection.
+
+Test: 
+telnet <HOST> <PORT>
+>>Connected to server
+
+Execute: client time in another terminal, server handles 
+this request and closes connection.
