@@ -1,11 +1,7 @@
 		README
 ----------------------------------------
 
-========================================
-	Name  : Saketkumar Srivastav.
 	EE_450: Programming Project 1.
-	USC_ID: 8690250995
-========================================
 
 - Compiling Instructions:
 
@@ -17,12 +13,6 @@ Run: server
 Run: client date
      client time
 
-==========================================
-
-		Extra Credit
-
-==========================================
-
 Server is handling multiple clients simulteneously by 
 spawning a child using fork() API and listens after 
 accepting a client connection.
@@ -31,7 +21,7 @@ Server will serve multiple clients once and then close
 the client socket connection.
 
 Test: 
-telnet nunki.usc.edu 22095
+telnet <HOST> <PORT>
 >>Connected to server
 
 Execute: client time in another terminal, server handles 
